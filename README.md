@@ -1,4 +1,4 @@
-# Client-Server-Chat--Console-App
+# Client-Server-Chat-Console-App
 
 This is a simple client-server chat application implemented in Java. The application demonstrates two communication modes: blocking IO using traditional Java sockets and non-blocking IO using Java SocketChannels.
 Features
@@ -34,12 +34,7 @@ The NonBlockingServer class creates a ServerSocketChannel and registers it with 
 The server uses non-blocking SocketChannels for client connections and handles read/write operations asynchronously.
 Clients are managed using a Map where each client has a corresponding SocketChannel.
 
-# Client (Blocking IO)
-
-The Client class creates a SocketChannel to connect to the server.
-The client communicates with the server using traditional input/output streams (InputStream and OutputStream).
-
-Contributions
+# Contributions
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request. are welcome!
 If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request.
